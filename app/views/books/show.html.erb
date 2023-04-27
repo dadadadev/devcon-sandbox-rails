@@ -1,5 +1,5 @@
 <h1>Books</h1>
-<a href="/books">Return</a>
+<%= link_to "Return", books_path %>
 <div>Title: <%= @book.title %></div>
 <div>Author: <%= @book.author %></div>
 <%= button_to "Edit", edit_book_path, method: :get %>
