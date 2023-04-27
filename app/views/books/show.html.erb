@@ -3,3 +3,4 @@
 <div>Title: <%= @book.title %></div>
 <div>Author: <%= @book.author %></div>
 <%= button_to "Edit", edit_book_path, method: :get %>
+<%= button_to "Delete", @book, method: :delete %>
