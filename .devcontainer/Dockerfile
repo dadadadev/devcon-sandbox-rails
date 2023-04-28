@@ -3,7 +3,7 @@ ARG VARIANT=${templateOption:imageVariant}
 FROM mcr.microsoft.com/devcontainers/ruby:${VARIANT}
 
 # Install Rails
-RUN gem install rails webdrivers
+RUN gem install rails webdrivers solargraph
 
 # Default value to allow debug server to serve content over GitHub Codespace's port forwarding service
 # The value is a comma-separated list of allowed domains 
