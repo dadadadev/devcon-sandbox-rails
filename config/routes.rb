@@ -3,7 +3,9 @@ Rails.application.routes.draw do
   get 'home/index'
   get '/help', to: 'home#help'
   resources :users
-  resources :books
+  resources :books do
+    resources :comments
+  end
   # get '/books', to: 'books#index'
   # get '/books/new', to: 'books#new', as: :new_book
   # post '/books', to: 'books#create'
