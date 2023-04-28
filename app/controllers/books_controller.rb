@@ -16,7 +16,7 @@ class BooksController < ApplicationController
         if @book.save
             redirect_to @book
         else
-            render :new, status: :unprocessable_entitiy
+            render :new, status: :unprocessable_entity
         end
     end
 
@@ -29,7 +29,7 @@ class BooksController < ApplicationController
         if @book.update(book_params)
             redirect_to @book
         else
-            render :new, status: :unprocessable_entitiy
+            render :new, status: :unprocessable_entity
         end            
     end
 
