@@ -1,3 +1,5 @@
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://dadadadev-crispy-chainsaw-6vxp6rrxvpw254pg.github.dev/)
+
 # README
 
 This README would normally document whatever steps are necessary to get the
